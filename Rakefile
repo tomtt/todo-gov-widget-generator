@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "todo-gov-widget-generator"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Generator for todo-gov widget}
+    gem.description = %Q{Generator for todo-gov widget}
     gem.email = "git@tomtenthij.nl"
     gem.homepage = "http://github.com/tomtt/todo-gov-widget-generator"
     gem.authors = ["Tom ten Thij"]
