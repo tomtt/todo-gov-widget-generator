@@ -1,3 +1,11 @@
-This widget is not doing something useful yet.
-It received these params:
-= params.inspect
+.results
+  This widget is not doing something useful yet.
+  It received these params:
+  = params.inspect
+.perform
+  .perform_info
+    = image_tag('spinner.gif', :alt => 'Please wait')
+    Please wait while we do more stuff
+  .error_message
+    There was an error
+  = render(:partial => '/widgets/<%= file_name %>/form')
